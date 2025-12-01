@@ -1,0 +1,34 @@
+IMPORTANTE: Crear Iconos para PWA
+===================================
+
+Para que la PWA funcione completamente, necesitas crear 2 iconos:
+
+1. icon-192.png (192x192 píxeles)
+2. icon-512.png (512x512 píxeles)
+
+Opciones para crear los iconos:
+
+OPCIÓN 1 - Usar un generador online:
+- Ve a: https://www.pwabuilder.com/imageGenerator
+- Sube una imagen con el logo/icono de tu app
+- Descarga los iconos generados
+- Colócalos en esta carpeta (public/)
+
+OPCIÓN 2 - Crear manualmente:
+- Usa cualquier editor de imágenes (Photoshop, GIMP, Canva, etc.)
+- Crea una imagen cuadrada con el emoji 🎮 o un diseño personalizado
+- Exporta en 192x192px y 512x512px
+- Guárdalos como icon-192.png e icon-512.png en esta carpeta
+
+OPCIÓN 3 - Usar emoji como icono temporal:
+- Puedes usar un servicio como https://favicon.io/emoji-favicons/
+- Busca el emoji de videojuego 🎮
+- Descarga y redimensiona a los tamaños necesarios
+
+Sugerencias de diseño:
+- Fondo con el gradiente de la app (#667eea a #764ba2)
+- Emoji 🎮 en el centro
+- Bordes redondeados opcionales
+- Colores que coincidan con el tema de la app
+
+Una vez creados los iconos, la PWA estará 100% funcional y podrá instalarse en dispositivos móviles.
