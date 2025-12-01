@@ -39,16 +39,14 @@ function OpinionItem({ opinion, usuarioActual, onEditar, onEliminar, offline }) 
           <button 
             className="btn-edit"
             onClick={() => onEditar(opinion)}
-            disabled={offline}
           >
-            ✏️ Editar
+            ✏️ Editar{offline && ' (Offline)'}
           </button>
           <button 
             className="btn-delete"
             onClick={() => onEliminar(opinion.id)}
-            disabled={offline}
           >
-            🗑️ Eliminar
+            🗑️ Eliminar{offline && ' (Offline)'}
           </button>
         </div>
       )}
